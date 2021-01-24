@@ -120,3 +120,21 @@
     flex-direction: column;
   }
 }
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 2rem;
+}
+
+.menuItem {
+  background: #ccc;
+  border-radius: 10px;
+}
+
+.menuItem a {
+  display: block;
+  padding: 0.5rem;
+  border-radius: 20%;
+}
