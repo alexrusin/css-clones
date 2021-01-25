@@ -22,7 +22,7 @@ export default function Home() {
             </Link>
           </div>
           <div className={styles.menuItem}>
-            <Link href="#">
+            <Link href="/#">
               <a>Other Clone</a>
             </Link>
           </div>
