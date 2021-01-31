@@ -22,6 +22,11 @@ export default function Home() {
             </Link>
           </div>
           <div className={styles.menuItem}>
+            <Link href="/microsoft-clone">
+              <a>Microsoft clone</a>
+            </Link>
+          </div>
+          <div className={styles.menuItem}>
             <Link href="/#">
               <a>Other Clone</a>
             </Link>

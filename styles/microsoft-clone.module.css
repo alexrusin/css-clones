@@ -1,0 +1,78 @@
+.container *,
+.container *::before,
+.container *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+.container a {
+  color: #262626;
+  text-decoration: none;
+}
+
+.container ul {
+  list-style: none;
+}
+
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+}
+
+.mainNav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  padding: 20px 0;
+  font-size: 13px;
+}
+
+.mainNav .logo {
+  width: 110px;
+}
+
+.mainNav ul {
+  display: flex;
+}
+
+.mainNav ul li {
+  padding: 0 10px;
+}
+
+.mainNav ul li a {
+  padding-bottom: 2px;
+}
+
+.mainNav ul li a:hover {
+  border-bottom: 2px solid #262626;
+}
+
+.mainNav ul.mainMenu {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.btn {
+  cursor: pointer;
+  display: flex;
+  border: 0;
+  font-weight: bold;
+  padding: 10px 10px 10px 20px;
+  background: #262626;
+  font-size: 15px;
+  color: white;
+}
+
+.btn svg {
+  fill: currentColor;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
