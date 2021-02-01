@@ -26,11 +26,6 @@ export default function Home() {
               <a>Microsoft clone</a>
             </Link>
           </div>
-          <div className={styles.menuItem}>
-            <Link href="/#">
-              <a>Other Clone</a>
-            </Link>
-          </div>
         </div>
       </main>
 

@@ -5,6 +5,9 @@
   margin: 0;
   padding: 0;
   font-family: "Segoe UI", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.container {
   font-size: 15px;
   line-height: 1.5;
 }
@@ -66,7 +69,12 @@
   padding: 10px 10px 10px 20px;
   background: #262626;
   font-size: 15px;
-  color: white;
+  color: white !important;
+}
+
+.btnLight {
+  background: white;
+  color: #333 !important;
 }
 
 .btn svg {
@@ -75,4 +83,96 @@
 
 .btn:hover {
   opacity: 0.9;
+}
+
+/* Showcase */
+.showcase {
+  width: 100%;
+  height: 400px;
+  background: url("../public/microsoft/banner.png") no-repeat center
+    center/cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: flex-end;
+  padding-bottom: 50px;
+  margin-bottom: 20px;
+}
+
+.showcase h2,
+.showcase p {
+  margin-bottom: 10px;
+}
+
+.showcase .btn {
+  margin-top: 20px;
+}
+
+/* Home cards */
+.homeCards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 40px;
+}
+
+.homeCards img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.homeCards h3 {
+  margin-bottom: 5px;
+}
+
+.homeCards a {
+  display: flex;
+  align-items: center;
+  padding-top: 10px;
+  color: #0067b8;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.homeCards svg {
+  fill: currentColor;
+}
+
+.homeCards a:hover svg {
+  margin-left: 10px;
+}
+
+/* xbox styling */
+.xbox,
+.carbon {
+  margin-top: 40px;
+  margin-bottom: 20px;
+  height: 350px;
+  width: 100%;
+  background: url("../public/microsoft/xbox.png") no-repeat center center/cover;
+}
+
+.xbox .content,
+.carbon .content {
+  width: 40%;
+  padding: 50px 0 0 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.xbox p,
+.carbon p {
+  margin: 10px 0 20px;
+}
+
+.carbon {
+  background: url("../public/microsoft/carbon.jpg") no-repeat center
+    center/cover;
+}
+
+.carbon .content {
+  width: 55%;
+  padding: 100px 0 0 30px;
+  color: white;
 }

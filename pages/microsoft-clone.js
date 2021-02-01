@@ -34,12 +34,133 @@ export default function MicrosoftClone() {
                    Select Surfaces are on sale now - save while supplies last
                </p>
                <button type="button" className={styles.btn}>
-                   <p>
+                   <div>
                         Shop Now 
-                   </p>
+                   </div>
                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
                </button>
            </header>
+            {/* home cards 1 */}
+            <section className={styles.homeCards}>
+                <div>
+                    <img src="/microsoft/card1.png" alt="" />
+                    <h3>New Surface Pro 7</h3>
+                    <p>
+                    See how Katie Sowers, Asst. Coach for the 49ers, uses Surface Pro 7 to put her plans into play.
+                    </p>
+                    <a href="#">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card2.png" alt="" />
+                    <h3>New Surface Laptop 3</h3>
+                    <p>
+                    Express yourself powerfully with a thin, light, and elegant design, faster performance, and up to 11.5 hours battery life.
+                    </p>
+                    <a href="#">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card3.png" alt="" />
+                    <h3>Save $150 + free controller</h3>
+                    <p>
+                    Buy an Xbox One X console and double your fun with a free select extra controller. Starting at $349.
+                    </p>
+                    <a href="#">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card4.png" alt="" />
+                    <h3>The new Microsoft Edge</h3>
+                    <p>
+                    Expect more. World class performance, with more privacy, more productivity, and more value.
+                    </p>
+                    <a href="#">
+                    Learn more
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+            </section>
+            {/* xbox */}
+            <section className={styles.xbox}>
+                <div className={styles.content}>
+                    <h2>Xbox Game Pass Ultimate</h2>
+                    <p>
+                    Xbox Game Pass Ultimate Xbox Live Gold and over 100 high-quality console and PC games. Play together with friends and discover your next favorite game.
+                    </p>
+                    <a href="#" className={styles.btn}>
+                        Join Now
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+            </section>
+            {/* home cards 2 */}
+            <section className={styles.homeCards}>
+                <div>
+                    <img src="/microsoft/card5.png" alt="" />
+                    <h3>Microsoft Teams</h3>
+                    <p>
+                    Unleash the power of your team.
+                    </p>
+                    <a href="#">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card6.jpg" alt="" />
+                    <h3>Unlock the power of learning</h3>
+                    <p>
+                    Get students future-ready with Windows 10 devices. Starting at $219.
+                    </p>
+                    <a href="#">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card7.png" alt="" />
+                    <h3>Windows 10 Enterprise</h3>
+                    <p>
+                    Download the free 90-day evaluation for IT professionals.
+                    </p>
+                    <a href="#">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+                <div>
+                    <img src="/microsoft/card4.png" alt="" />
+                    <h3>Explore Kubernetes</h3>
+                    <p>
+                    Learn how Kubernetes works and get started with cloud native app development today.
+                    </p>
+                    <a href="#">
+                    Shop Now
+                    <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+            </section>
+
+            {/* carbon */}
+            <section className={styles.carbon}>
+            <div className={styles.content}>
+                    <h2>Commiting To Carbon Negative</h2>
+                    <p>
+                    Microsoft will be carbon negative by 2030 and by 2050 we will remove all carbon the company has emitted since it was founded in 1975
+                    </p>
+                    <a href="#" className={`${styles.btn} ${styles.btnLight}`}>
+                        Learn More
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" width="24"><path d="M0 0h24v24H0z" fill="none"/><path d="M10 6L8.59 7.41 13.17 12l-4.58 4.59L10 18l6-6z"/></svg>
+                    </a>
+                </div>
+            </section>
        </div>
     );
 
